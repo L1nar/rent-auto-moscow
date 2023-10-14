@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.rent {
+    height: 100%;
+    overflow: hidden;
+    background: url(img/car.png) no-repeat center/cover;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.info {
+    margin-top: 350px;
+}
+
+.title {
+    font-size: 44px;
+    color: white;
+    margin-bottom: 34px;
+}
+
+.pre-title {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 33px;
+}
+
+.advantages {}
+
+.advantages__item {
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.advantages__item:last-child {
+    margin-bottom: 0px;
+}
+
+.advantages__img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.advantages__text {
+    font-size: 20px;
+    color: white;
+}
+
+.feedback {
+    margin-top: 390px;
+    width: 532px;
+    height: 353px;
+    border-radius: 20px;
+    background: rgba(71, 117, 36, 0.50);
+}
+
+.feedback__title {
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.start-rent {
+    width: 200px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    position: relative;
+}
+
+.end-rent {
+    width: 200px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    position: relative;
+}
+
+.start-rent__img {
+    position: absolute;
+    right: 980px;
+    top: 460px;
+}
+
+.end-rent__img {
+    position: absolute;
+    top: 460px;
+    right: 755px;
+}
+
+.select {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.select-auto {
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select-auto__item {
+    margin-left: 30px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.select-auto__img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.btn {
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: 445px;
+    height: 46px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(71, 117, 36, 0.80);
+}
